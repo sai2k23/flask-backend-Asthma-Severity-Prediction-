@@ -14,6 +14,19 @@ This **Flask-based backend** is responsible for processing data and predicting a
 - **Flask** - Web framework for API development.
 - **Scikit-learn/Pandas** - Machine learning model handling.
 - **SQLite/PostgreSQL** - Database support (if applicable).
+- flask-backend-Asthma-Severity-Prediction/
+│── catboost_info/
+│   ├── learn/
+│   │   ├── events.out.tfevents
+│   │   ├── catboost_training.json
+│   │   ├── learn_error.tsv
+│   │   ├── time_left.tsv
+│   ├── README.md
+│── app.py
+│── asthma_dataset.csv
+│── model.pkl
+│── requirements.txt
+
 
 ## Installation
 ```bash
